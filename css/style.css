@@ -163,15 +163,28 @@ header .navbar-light .navbar-toggler {
   border-radius: 100px 0px 0px 100px;
   position: relative;
   left: 20px;
+  border: 0;
+  font-weight: 600;
+}
+.plan .master-main .master:visited {
+  background-color: #991B1F;
+  color: #fff;
 }
 .plan .master-main .floor {
-  background-color: #991B1F;
+  background-color: #F4E8E8;
   width: 300px;
   height: 50px;
   border-radius: 100px;
   z-index: 1090;
   position: relative;
   left: -20px;
+  border: 0;
+  color: #000000;
+  font-weight: 600;
+}
+.plan .master-main .floor:focus {
+  background-color: #991B1F;
+  color: #F4E8E8;
 }
 .plan .img-text p .red {
   color: #991B1F;
@@ -261,7 +274,6 @@ footer p {
 }
 @media only screen and (max-width: 768px) {
   .plan .master-main .floor {
-    background-color: #991B1F;
     width: 170px;
     height: 40px;
     border-radius: 100px;
@@ -384,18 +396,22 @@ footer p {
     margin: 0 auto;
   }
 }
-@media only screen and (max-width: 415px) {
-  .plan .master-main .floor, .plan .master-main .master {
-    width: 140px;
+@media only screen and (max-width: 414px) {
+  .major-items {
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
+    padding: 0rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 160px;
+    border-radius: 5px;
   }
-  .major {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .major-dif {
-    width: 180px;
-    margin: 0 auto;
-  }
+}
+@media only screen and (max-width: 413px) {
   .major-items {
     border-radius: 16px;
     background: #FFF;

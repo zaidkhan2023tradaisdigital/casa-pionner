@@ -209,11 +209,11 @@ header{
         justify-content:center;
         margin: 0 auto;
         text-align: center;
-
         h6{
             line-height: 3;
             color: #991B1F;
             font-weight: 600;
+           
         }
 
         .h6{
@@ -228,21 +228,42 @@ header{
             border-radius: 100px 0px 0px 100px;
             position: relative;
             left: 20px;
+            border: 0;
+            font-weight: 600;
             
             
         }
 
-        .floor{
+        .master:visited{
             background-color: #991B1F;
+            color: #fff;
+           
+        }
+
+
+
+
+        .floor{
+            background-color:#F4E8E8 ;
             width: 300px;
             height: 50px;
             border-radius: 100px;
             z-index: +1090;
             position: relative;
             left: -20px;
+            border: 0;
+            color:#000000;
+            font-weight: 600;
             
             
         }
+
+
+        .floor:focus{
+            background-color: #991B1F;
+            color: #F4E8E8;
+        }
+
     }
 
     .img-text{
@@ -365,7 +386,7 @@ footer{
 
 @media only screen and (max-width:768px){
     .plan .master-main .floor{
-        background-color: #991B1F;
+
         width: 170px;
         height: 40px;
         border-radius: 100px;
@@ -528,20 +549,28 @@ footer{
 
 }
 
-@media only screen and (max-width:415px){
-    .plan .master-main .floor, .plan .master-main .master {
-        width: 140px;
-    }
+@media only screen and (max-width:414px){
 
-    .major{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
-    .major-dif {
-        width: 180px;
-        margin: 0 auto;
+    .major-items{
+        border-radius: 16px;
+        background: #FFF;
+        box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
+        padding: 0rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 160px;
+        border-radius: 5px;
+        
+    
     }
+}
+
+@media only screen and (max-width:413px){
+
 
     .major-items{
         border-radius: 16px;
