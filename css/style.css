@@ -97,11 +97,11 @@ header .navbar-light .navbar-toggler {
 }
 
 .empty {
-  padding-bottom: 7rem;
+  padding-bottom: 4rem;
 }
 
 .major {
-  padding-bottom: 7rem;
+  margin-bottom: 3rem;
 }
 .major h1 {
   color: #991B1F;
