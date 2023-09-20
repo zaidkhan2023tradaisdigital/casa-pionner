@@ -26,6 +26,9 @@ header {
 header .bg-light {
   background-color: white !important;
 }
+header .navbar-toggler {
+  padding: 0;
+}
 header .navbar-light .navbar-nav .nav-link {
   color: #991B1F !important;
 }
@@ -47,7 +50,7 @@ header .navbar-light .navbar-toggler {
 .banner {
   width: 100%;
   height: 100vh;
-  background: url("../img/casa-pioneer.png");
+  background: url("../img/casa-pioneer-banner.png");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,8 +76,8 @@ header .navbar-light .navbar-toggler {
 }
 
 .about {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .about .about-left {
   position: relative;
@@ -97,11 +100,11 @@ header .navbar-light .navbar-toggler {
 }
 
 .empty {
-  padding-bottom: 7rem;
+  padding-bottom: 3rem;
 }
 
 .major {
-  padding-bottom: 7rem;
+  padding-bottom: 1rem;
 }
 .major h1 {
   color: #991B1F;
@@ -133,19 +136,41 @@ header .navbar-light .navbar-toggler {
 }
 
 .plan {
-  padding-bottom: 7rem;
+  padding-bottom: 3rem;
 }
 .plan h1 {
   color: #991B1F;
   font-weight: 600;
 }
+.plan .owl-theme .owl-nav [class*=owl-]:hover {
+  background: none !important;
+  color: #000000 !important;
+  font-weight: 600 !important;
+}
+.plan .owl-carousel .owl-nav button.owl-next, .plan .owl-carousel .owl-nav button.owl-prev, .plan .owl-carousel button.owl-dot {
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.plan .dif {
+  color: #991B1F !important;
+  font-weight: 600 !important;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.plan .dif2 {
+  font-weight: 600;
+  margin-right: 20px;
+  font-size: 15px;
+}
 .plan .master-main {
   max-width: 600px;
+  margin-bottom: 2rem !important;
   height: 50px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
   text-align: center;
+  z-index: -1;
 }
 .plan .master-main h6 {
   line-height: 3;
@@ -166,8 +191,8 @@ header .navbar-light .navbar-toggler {
   border: 0;
   font-weight: 600;
 }
-.plan .master-main .master:visited {
-  background-color: #991B1F;
+.plan .master-main .data-bs-toggle {
+  background: #991B1F;
   color: #fff;
 }
 .plan .master-main .floor {
@@ -175,16 +200,12 @@ header .navbar-light .navbar-toggler {
   width: 300px;
   height: 50px;
   border-radius: 100px;
-  z-index: 1090;
+  z-index: 0;
   position: relative;
   left: -20px;
   border: 0;
   color: #000000;
   font-weight: 600;
-}
-.plan .master-main .floor:focus {
-  background-color: #991B1F;
-  color: #F4E8E8;
 }
 .plan .img-text p .red {
   color: #991B1F;
@@ -196,7 +217,7 @@ header .navbar-light .navbar-toggler {
 }
 
 .contact {
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
 }
 .contact h1 {
   color: #991B1F;
@@ -242,6 +263,12 @@ header .navbar-light .navbar-toggler {
 }
 .contact .contact-right textarea {
   color: grey;
+}
+
+#cong {
+  width: 100%;
+  height: 100vh;
+  background-color: #F4E8E8;
 }
 
 footer {
@@ -350,7 +377,7 @@ footer p {
   .banner {
     width: 100%;
     height: 600px;
-    background: url("../img/mobile.png");
+    background: url("../img/casa-pionner-banner-mobile-version.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -439,5 +466,17 @@ footer p {
     text-align: center;
     height: 160px;
     border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .plan .owl-carousel .owl-nav button.owl-next, .plan .owl-carousel .owl-nav button.owl-prev, .plan .owl-carousel button.owl-dot {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+  .dif {
+    margin-left: 10px;
+  }
+  .dif2 {
+    margin-right: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -36,6 +36,10 @@ header{
        
     }
 
+    .navbar-toggler{
+        padding: 0;
+    }
+
     .navbar-light .navbar-nav .nav-link{
         color: #991B1F !important;
         
@@ -70,7 +74,7 @@ header{
 .banner{
     width: 100%;
     height: 100vh;
-    background: url("../img/casa-pioneer.png");
+    background: url("../img/casa-pioneer-banner.png");
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,8 +110,8 @@ header{
 
 // About starts here 
 .about{
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 
     .about-left{
         position: relative;
@@ -147,7 +151,7 @@ header{
 
 // empty image starts here 
 .empty{
-    padding-bottom: 7rem;
+    padding-bottom: 3rem;
 }
 // empty end here 
 
@@ -155,7 +159,7 @@ header{
 // major starts here 
 
 .major{
-    padding-bottom: 7rem;
+    padding-bottom: 1rem;
 
     h1{
         color: #991B1F;
@@ -194,21 +198,48 @@ header{
 
 // plan starts here 
 .plan{
-    padding-bottom: 7rem;
+    padding-bottom: 3rem;
     h1{
         color: #991B1F;
         font-weight: 600;
+    }
+
+    .owl-theme .owl-nav [class*=owl-]:hover{
+        background:none !important;
+        color: #000000 !important;
+        font-weight: 600 !important;
+        
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+    }
+
+    .dif{
+        color: #991B1F !important;
+        font-weight: 600 !important;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .dif2{
+        font-weight: 600;
+        margin-right: 20px;
+        font-size: 15px;
     }
 
    
 
     .master-main{
         max-width: 600px;
+        margin-bottom: 2rem !important;
         height: 50px;
         display: flex;
         justify-content:center;
         margin: 0 auto;
         text-align: center;
+        z-index: -1;
         h6{
             line-height: 3;
             color: #991B1F;
@@ -234,21 +265,21 @@ header{
             
         }
 
-        .master:visited{
-            background-color: #991B1F;
+
+        .data-bs-toggle{
+            background: #991B1F;
             color: #fff;
-           
         }
 
 
 
 
         .floor{
-            background-color:#F4E8E8 ;
+            background-color:#F4E8E8;
             width: 300px;
             height: 50px;
             border-radius: 100px;
-            z-index: +1090;
+            z-index: 0;
             position: relative;
             left: -20px;
             border: 0;
@@ -259,10 +290,7 @@ header{
         }
 
 
-        .floor:focus{
-            background-color: #991B1F;
-            color: #F4E8E8;
-        }
+      
 
     }
 
@@ -285,7 +313,7 @@ header{
 
 // Contact starts here 
 .contact{
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
 
     h1{
         color: #991B1F;
@@ -345,6 +373,13 @@ header{
             color: grey;
         }
     }
+}
+
+#cong{
+    width: 100%;
+    height: 100vh;
+    background-color: #F4E8E8;
+
 }
 
 // footer starts here 
@@ -490,7 +525,7 @@ footer{
     .banner {
         width: 100%;
         height: 600px;
-        background: url("../img/mobile.png");
+        background: url("../img/casa-pionner-banner-mobile-version.png");
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
@@ -608,6 +643,24 @@ footer{
     
     }
 
+}
+
+@media only screen and (max-width:361px){
+
+    .plan .owl-carousel .owl-nav button.owl-next, .plan .owl-carousel .owl-nav button.owl-prev, .plan .owl-carousel button.owl-dot {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+
+    .dif{
+       
+        margin-left: 10px;
+    }
+
+    .dif2{
+        
+        margin-right: 10px;
+    }
 }
 
 
