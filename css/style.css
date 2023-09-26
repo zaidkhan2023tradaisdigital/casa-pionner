@@ -30,14 +30,14 @@ header .navbar-toggler {
   padding: 0;
 }
 header .navbar-light .navbar-nav .nav-link {
-  color: #991B1F !important;
+  color: #991b1f !important;
 }
 header .btn-download {
-  background-color: #991B1F;
+  background-color: #991b1f;
   color: #fff;
 }
 header .btn-download:hover {
-  background-color: #991B1F;
+  background-color: #991b1f;
   color: #fff;
 }
 header .navbar-toggler:focus {
@@ -67,8 +67,8 @@ header .navbar-light .navbar-toggler {
   font-weight: 700;
 }
 .banner .banner-text .btn-eng {
-  background-color: #991B1F;
-  border: #991B1F;
+  background-color: #991b1f;
+  border: #991b1f;
   color: #fff;
 }
 .banner .banner-text .btn-eng:hover {
@@ -89,14 +89,14 @@ header .navbar-light .navbar-toggler {
   padding-top: 12rem;
 }
 .about .about-right h1 {
-  color: #991B1F;
+  color: #991b1f;
   font-weight: 600;
 }
 .about .about-right .btn-let {
   color: white;
 }
 .about .about-right .btn-let {
-  background-color: #991B1F;
+  background-color: #991b1f;
 }
 
 .empty {
@@ -107,7 +107,7 @@ header .navbar-light .navbar-toggler {
   padding-bottom: 1rem;
 }
 .major h1 {
-  color: #991B1F;
+  color: #991b1f;
   font-weight: 600;
 }
 .major p {
@@ -116,7 +116,7 @@ header .navbar-light .navbar-toggler {
 
 .major-items {
   border-radius: 16px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
   padding: 0rem 2rem;
   display: flex;
@@ -128,7 +128,7 @@ header .navbar-light .navbar-toggler {
   border-radius: 5px;
 }
 .major-items img {
-  color: #991B1F;
+  color: #991b1f;
 }
 .major-items p {
   margin-bottom: 0px;
@@ -139,20 +139,21 @@ header .navbar-light .navbar-toggler {
   padding-bottom: 3rem;
 }
 .plan h1 {
-  color: #991B1F;
+  color: #991b1f;
   font-weight: 600;
 }
 .plan .owl-theme .owl-nav [class*=owl-]:hover {
   background: none !important;
-  color: #000000 !important;
+  color: #991b1f !important;
   font-weight: 600 !important;
 }
-.plan .owl-carousel .owl-nav button.owl-next, .plan .owl-carousel .owl-nav button.owl-prev, .plan .owl-carousel button.owl-dot {
+.plan .owl-carousel .owl-nav button.owl-next,
+.plan .owl-carousel .owl-nav button.owl-prev,
+.plan .owl-carousel button.owl-dot {
   margin-right: 20px !important;
   margin-left: 20px !important;
 }
 .plan .dif {
-  color: #991B1F !important;
   font-weight: 600 !important;
   margin-left: 20px;
   font-size: 15px;
@@ -174,7 +175,7 @@ header .navbar-light .navbar-toggler {
 }
 .plan .master-main h6 {
   line-height: 3;
-  color: #991B1F;
+  color: #991b1f;
   font-weight: 600;
 }
 .plan .master-main .h6 {
@@ -182,7 +183,7 @@ header .navbar-light .navbar-toggler {
   font-weight: 600;
 }
 .plan .master-main .master {
-  background-color: #F4E8E8;
+  background-color: #f4e8e8;
   width: 300px;
   height: 50px;
   border-radius: 100px 0px 0px 100px;
@@ -192,11 +193,11 @@ header .navbar-light .navbar-toggler {
   font-weight: 600;
 }
 .plan .master-main .data-bs-toggle {
-  background: #991B1F;
+  background: #991b1f;
   color: #fff;
 }
 .plan .master-main .floor {
-  background-color: #F4E8E8;
+  background-color: #f4e8e8;
   width: 300px;
   height: 50px;
   border-radius: 100px;
@@ -208,7 +209,7 @@ header .navbar-light .navbar-toggler {
   font-weight: 600;
 }
 .plan .img-text p .red {
-  color: #991B1F;
+  color: #991b1f;
   font-weight: bold;
 }
 .plan .img-text p .black {
@@ -220,7 +221,7 @@ header .navbar-light .navbar-toggler {
   padding-bottom: 2rem;
 }
 .contact h1 {
-  color: #991B1F;
+  color: #991b1f;
   font-weight: 600;
 }
 .contact .contact-left a {
@@ -229,15 +230,15 @@ header .navbar-light .navbar-toggler {
 }
 .contact .contact-left .contact-left-item {
   border-radius: 16px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
 }
 .contact .contact-left .contact-left-item h6 {
-  color: #991B1F;
+  color: #991b1f;
 }
 .contact .contact-right {
   border-radius: 16px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
   padding-bottom: 1.5rem !important;
 }
@@ -255,24 +256,21 @@ header .navbar-light .navbar-toggler {
   border: 2px solid #969291;
 }
 .contact .contact-right .submit {
-  background-color: #991B1F;
-  border-color: #AD484B;
+  background-color: #991b1f;
+  border-color: #ad484b;
   color: white;
   border: 0;
   border-radius: 3px;
-}
-.contact .contact-right textarea {
-  color: grey;
 }
 
 #cong {
   width: 100%;
   height: 100vh;
-  background-color: #F4E8E8;
+  background-color: #f4e8e8;
 }
 
 footer {
-  background-color: #991B1F;
+  background-color: #991b1f;
   width: 100%;
   height: 57px;
   color: #fff;
@@ -304,7 +302,6 @@ footer p {
     width: 170px;
     height: 40px;
     border-radius: 100px;
-    z-index: 1090;
     position: relative;
     left: -26px;
   }
@@ -312,7 +309,6 @@ footer p {
     width: 170px;
     height: 40px;
     border-radius: 100px;
-    z-index: 1090;
     position: relative;
     left: 4px;
   }
@@ -330,7 +326,7 @@ footer p {
     text-align: center;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 100px) and (max-width: 786px) {
   .banner .banner-text h4 {
     font-size: 1.2rem;
     font-weight: 400;
@@ -348,30 +344,28 @@ footer p {
     height: 65px;
   }
   input {
-    font-size: 13px !important;
+    font-size: 14px !important;
   }
   textarea {
-    font-size: 13px !important;
+    font-size: 14px !important;
   }
   .right p {
-    font-size: 13px;
+    font-size: 14px;
   }
   .banner .banner-text h1 {
     font-size: 3rem;
     font-weight: 500;
   }
-  .contact .contact-right, .contact .contact-left .contact-left-item {
+  .contact .contact-right,
+  .contact .contact-left .contact-left-item {
     border-radius: 16px;
-    background: #FFF;
+    background: #fff;
     box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
     padding-bottom: 0.5rem !important;
     padding-top: 1.5rem !important;
   }
-  .major-dif {
-    width: 160px;
-    margin: 0 auto;
-  }
-  .plan .master-main .floor, .plan .master-main .master {
+  .plan .master-main .floor,
+  .plan .master-main .master {
     width: 150px;
   }
   .banner {
@@ -395,16 +389,25 @@ footer p {
   }
   .major-items {
     border-radius: 16px;
-    background: #FFF;
+    background: #fff;
     box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
-    padding: 0rem 4rem;
     display: flex;
+    padding: 0px 3rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     height: 160px;
     border-radius: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  small {
+    font-size: 0.8rem;
+  }
+  .col {
+    padding-left: unset !important;
+    padding-right: unset !important;
   }
   .p-5 {
     padding: 1rem !important;
@@ -422,61 +425,16 @@ footer p {
     width: 200px;
     margin: 0 auto;
   }
-}
-@media only screen and (max-width: 414px) {
-  .major-items {
-    border-radius: 16px;
-    background: #FFF;
-    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
-    padding: 0rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 160px;
-    border-radius: 5px;
-  }
-}
-@media only screen and (max-width: 413px) {
-  .major-items {
-    border-radius: 16px;
-    background: #FFF;
-    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
-    padding: 0rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 160px;
-    border-radius: 5px;
-  }
-}
-@media screen and (min-device-width: 200px) and (max-device-width: 400px) {
-  .major-items {
-    border-radius: 16px;
-    background: #FFF;
-    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
-    padding: 0rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 160px;
-    border-radius: 5px;
-  }
-}
-@media only screen and (max-width: 361px) {
-  .plan .owl-carousel .owl-nav button.owl-next, .plan .owl-carousel .owl-nav button.owl-prev, .plan .owl-carousel button.owl-dot {
+  .plan .owl-carousel .owl-nav button.owl-next,
+  .plan .owl-carousel .owl-nav button.owl-prev,
+  .plan .owl-carousel button.owl-dot {
     margin-right: 10px !important;
     margin-left: 10px !important;
   }
-  .dif {
-    margin-left: 10px;
-  }
-  .dif2 {
-    margin-right: 10px;
+}
+@media only screen and (max-width: 361px) {
+  .major-dif {
+    width: 160px;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=style.css.map */

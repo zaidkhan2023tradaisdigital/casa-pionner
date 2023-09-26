@@ -17,18 +17,18 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-function validation(){
-    var text = document.getElementById("text1").value
-    var email = document.getElementById("email").value
-    var text2 = document.getElementById("text2").value
-    var message = document.getElementById("message").value
+// function validation(){
+//     var text = document.getElementById("text1").value
+//     var email = document.getElementById("email").value
+//     var text2 = document.getElementById("text2").value
+//     var message = document.getElementById("message").value
 
-    if(text1 == ""){
-        return false;
-    }
+//     if(text1 == ""){
+//         return false;
+//     }
     
-    else{
-        document.write("<h1 id='cong'>Congratulation Message Has been Send<h1>")
-    }
-}
+//     else{
+//         document.write("<h1 id='cong'>Congratulation Message Has been Send<h1>")
+//     }
+// }
 

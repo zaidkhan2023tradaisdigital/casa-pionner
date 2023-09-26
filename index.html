@@ -60,7 +60,7 @@
                    
                 </ul>
 
-                <a class="btn btn-danger btn-outline-danger btn-download" target="_blank" download href="casapioneer/Floor plan.pdf">Download Brochure</a>
+                <a class="btn btn-danger btn-outline-danger btn-download" target="_blank" download href="brochure/casa-pioneer-brochure.pdf">Download Brochure</a>
               </div>
             </div>
         </nav>
@@ -70,12 +70,12 @@
     <!-- bannner starts here  -->
     <div class="banner" style="position: relative;">
         <div class="banner-text">
-            <h1 class="mb-2">CASA PIONNER</h1>
+            <h1 class="mb-2">CASA PIONEER</h1>
             <H4 class="mb-4">Building Communities, One Home at a Time</H4>
-            <button class="btn btn-primary btn-outline-danger btn-eng px-5">Enquiry</button>
+            <a href="#contact" class="btn btn-primary btn-outline-danger btn-eng px-5">Enquiry</a>
         </div>
 
-        <div class="whatsapp-icon" style="position: fixed; right: 30px; bottom: 30px;">
+        <div class="whatsapp-icon" style="position: fixed; right: 30px; bottom: 30px; display: none;">
             <a href="tel:+91 9875-435799" target="_blank">
                 <img src="img/casa-pioneer-scroll-whatsapp.png" alt="" width="40px" height="40px">
             </a>
@@ -253,9 +253,9 @@
 
             <div class="col-xxl- col-xl-6 col-lg-6 col-md-12">
                 <div class="contact-right p-5">
-                    <form action="#" onsubmit="return validation();">
+                    <form action="https://formspree.io/f/mknlqanl" method="post" method="post" onsubmit="return validation();">
                         <div class="mb-3">
-                            <input type="text" class="form-control" name="text1" id="text1" placeholder="Name" required>
+                            <input type="text" class="form-control" name="text" id="text1" placeholder="Name" required>
                             <span id="username"></span>
                         </div>
 
@@ -265,12 +265,12 @@
                         </div>
 
                         <div class="mb-3">
-                            <input type="text" class="form-control" name="text2" id="text2" placeholder="Mobile No" required>
+                            <input type="text" class="form-control" name="text" id="text2" placeholder="Mobile No" required>
                             <span id="usernumber"></span>
                         </div>
 
                         <div class="mb-3">
-                            <textarea class="form-control" id="message" name="message" required rows="4">Massage</textarea>
+                            <textarea class="form-control" placeholder="Message" id="message" name="message" required rows="4"></textarea>
                             <span id="usermessage"></span>
                         </div>
 
