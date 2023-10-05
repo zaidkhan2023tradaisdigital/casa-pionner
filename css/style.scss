@@ -170,7 +170,7 @@ header {
 
 // plan starts here
 .plan {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   h1 {
     color: #991b1f;
     font-weight: 600;
@@ -400,7 +400,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 100px) and (max-width: 786px) {
+@media only screen and (min-width: 200px) and (max-width: 786px) {
   .banner .banner-text h4 {
     font-size: 1.2rem;
     font-weight: 400;
