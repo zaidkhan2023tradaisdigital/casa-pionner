@@ -268,14 +268,17 @@ header .navbar-light .navbar-toggler {
   display: block !important;
 }
 
-.model {
-  width: 40%;
+.model{
+  width: 100vw;
+  height: 100vh;
   position: fixed;
-  z-index: 1090;
-  position: absolute;
+  z-index: +1090;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(0,0,0,0.7);
+  display: none;
+
 }
 
 .close {
@@ -293,8 +296,10 @@ header .navbar-light .navbar-toggler {
 }
 
 .model-item {
-  display: none;
-  width: 100%;
+  width: 40%;
+  position: absolute;
+  top:25%;
+  left: 25%;
 }
 .model-item .contact-right {
   position: relative;
